@@ -29,19 +29,19 @@ pub fn BitCombinationIterator(comptime n: u16) type {
                         bitset.set(i);
                         bitset.setRangeValue(.{ .start = 0, .end = b }, true);
                         bitset.setRangeValue(.{ .start = b, .end = i }, false);
-                        return ret;
+                        break;
                     } else if (last) {
                         b += 1;
                     }
-                }
-
-                var c = bitset.count();
-
-                if (c == n) {
-                    self.bitset = null;
                 } else {
-                    bitset.* = BitSet(n).initEmpty();
-                    bitset.setRangeValue(.{ .start = 0, .end = c + 1 }, true);
+                    var c = bitset.count();
+
+                    if (c == n) {
+                        self.bitset = null;
+                    } else {
+                        bitset.setRangeValue(.{ .start = 0, .end = c + 1 }, true);
+                        bitset.setRangeValue(.{ .start = c + 1, .end = n }, false);
+                    }
                 }
             }
             return ret;
