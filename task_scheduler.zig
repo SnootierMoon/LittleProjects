@@ -8,10 +8,10 @@ const std = @import("std");
 /// A task represents a unit of work that has a certain profit and needs to be
 /// done over a certain time interval. The profit represents the relative
 /// importance of the task. The time interval is defined by its start time and
-/// duration. A set of tasks can be done only if the for any two tasks in the
-/// set, their time intervals do not overlap. The time interval of two tasks,
-/// t1 and t2, do not overlap if `t1.start_time + t1.duration <= t2.start_time
-/// or t2.start_time + t2.duration <= t1.start_time`.
+/// duration. A set of tasks can be done if for any two tasks in the set, their
+/// time intervals do not overlap. The time interval of two tasks, t1 and t2,
+/// do not overlap if `t1.start_time + t1.duration <= t2.start_time or
+/// t2.start_time + t2.duration <= t1.start_time`.
 pub const Task = struct {
     profit: u32,
     start_time: u32,
