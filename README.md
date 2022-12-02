@@ -15,9 +15,12 @@ All tested with `zig 0.10.0`.
 
 1. Bit Combination Iterator (3/13/22)
    * `zig test combination_iterator.zig`
-   * Iterate through bitsets in increasing order of bitcount, e.g.: \ `0000`,
-     `0001` `0010` `0100` `1000`,\ `0011`, `0101`, `0110`, `1001`, `1010`,
-     `1100`,\ `0111`,`1011`, `1101`, `1110`, `1111`.
+   * Iterate through bitsets in increasing order of bitcount, e.g.: \
+     `0000`,
+     `0001` `0010` `0100` `1000`,\
+     `0011`, `0101`, `0110`, `1001`, `1010`, `1100`,\
+     `0111`,`1011`, `1101`, `1110`,\
+     `1111`.
    * [source](https://github.com/SnootierMoon/Booleanomial-v2)
 2. Booleanomial (3/13/22)
    * `zig test booleanomial.zig`
