@@ -31,7 +31,7 @@ All tested with `zig 0.10.0`.
    * `zig build-exe econfig.zig && ./econfig`
    * Type in an atomic number, and the CLI responds with the element name,
      symbol, electron config, and quantum numbers.
-  * [source](https://gist.github.com/SnootierMoon/b0a3c4bca360a3600eca79400c73de1c)
+   * [source](https://gist.github.com/SnootierMoon/b0a3c4bca360a3600eca79400c73de1c)
 4. Task Scheduler (11/27/22)
    * `zig test task_scheduler.zig`
    * Based on a [LeetCode
