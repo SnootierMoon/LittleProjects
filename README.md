@@ -1,6 +1,6 @@
 # Little Projects
 
-Collection
+Collection of small, single-file projects and solutions to LeetCode problems.
 
 ## C
 
