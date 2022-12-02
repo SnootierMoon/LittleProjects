@@ -5,9 +5,9 @@ Collection of small, single-file projects and solutions to LeetCode problems.
 ## C
 
 1. Number of Good Subsets
+ * [number\_of\_good\_subsets.c](number_of_good_subsets.c)
  * Solution to a [LeetCode
    problem](https://leetcode.com/problems/the-number-of-good-subsets/)
- * [number\_of\_good\_subsets.c](number_of_good_subsets.c)
 
 ## Zig
 
