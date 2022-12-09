@@ -9,6 +9,10 @@ Collection of small, single-file projects and solutions to LeetCode problems.
    * Solution to a [LeetCode
      problem](https://leetcode.com/problems/the-number-of-good-subsets/)
 
+2. O(1) myPow
+   * [o1_mypow.c](o1_mypow.c)
+   * Solution to a [LeetCode problem](https://leetcode.com/problems/powx-n/)
+
 ## Zig
 
 All tested with `zig 0.10.0`.
