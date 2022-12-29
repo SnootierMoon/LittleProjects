@@ -13,6 +13,10 @@ Collection of small, single-file projects and solutions to LeetCode problems.
    * [o1_mypow.c](o1_mypow.c)
    * Solution to a [LeetCode problem](https://leetcode.com/problems/powx-n/)
 
+3. Number of Atoms
+   * [num_atoms.c](num_atoms.c)
+   * Solution to a [LeetCode problem](https://leetcode.com/problems/number-of-atoms/)
+
 ## Zig
 
 All tested with `zig 0.10.0`.
