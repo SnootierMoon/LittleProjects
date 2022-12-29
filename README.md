@@ -8,14 +8,17 @@ Collection of small, single-file projects and solutions to LeetCode problems.
    * [number\_of\_good\_subsets.c](number_of_good_subsets.c)
    * Solution to a [LeetCode
      problem](https://leetcode.com/problems/the-number-of-good-subsets/)
+   * Count subsets of a list that have a product with distinct prime factors
 
 2. O(1) myPow
    * [o1_mypow.c](o1_mypow.c)
    * Solution to a [LeetCode problem](https://leetcode.com/problems/powx-n/)
+   * Calculate [float]^[integer]
 
 3. Number of Atoms
    * [num_atoms.c](num_atoms.c)
    * Solution to a [LeetCode problem](https://leetcode.com/problems/number-of-atoms/)
+   * Count the number of each atom in a general molecular formula, e.g. `K4(ON(SO3)2)2`
 
 ## Zig
 
