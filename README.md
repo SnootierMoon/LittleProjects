@@ -51,7 +51,12 @@ of submission.
 
 1. [Number of Atoms (C)](https://leetcode.com/problems/number-of-atoms)
    * [num_atoms.c](num_atoms.c)
-2. [Parse Lisp Expression (C)](https://leetcode.com/problems/parse-lisp-expression)
+   * Count the number of each atom in a general molecular formula, e.g.
+     `K4(ON(SO3)2)2` -> `K4N2O14S4`.
+2. [Parse Lisp (C)](https://leetcode.com/problems/parse-lisp-expression)
+   * Parse an s-expression with `let`, `add`, and `mul`.
    * [parse_lisp.c](parse_lisp.c)
-3. [Dice Roll Simulation (Java)](https://leetcode.com/problems/dice-roll-simulation)
+3. [Dice Roll (Java)](https://leetcode.com/problems/dice-roll-simulation)
+   * Calculate the number of dice roll sequences of length n given a max number
+     of same consecutive rolls for each number.
    * [DiceRoll.java](DiceRoll.java)
