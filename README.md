@@ -15,11 +15,6 @@ Collection of small, single-file projects and solutions to LeetCode problems.
    * Solution to a [LeetCode problem](https://leetcode.com/problems/powx-n/)
    * Calculate [float]^[integer]
 
-3. Number of Atoms
-   * [num_atoms.c](num_atoms.c)
-   * Solution to a [LeetCode problem](https://leetcode.com/problems/number-of-atoms/)
-   * Count the number of each atom in a general molecular formula, e.g. `K4(ON(SO3)2)2`
-
 ## Zig
 
 All tested with `zig 0.10.0`.
@@ -48,3 +43,15 @@ All tested with `zig 0.10.0`.
      input
    * Given a list of tasks with set times and profits, compute the optimal task
      which maximizes profit.
+
+## LeetCode Hard 100%s
+
+Solutions that beat 100% of other solutions in both memory and runtime at time
+of submission.
+
+1. [Number of Atoms (C)](https://leetcode.com/problems/number-of-atoms)
+   * [num_atoms.c](num_atoms.c)
+2. [Parse Lisp Expression (C)](https://leetcode.com/problems/parse-lisp-expression)
+   * [parse_lisp.c](parse_lisp.c)
+3. [Dice Roll Simulation (Java)](https://leetcode.com/problems/dice-roll-simulation)
+   * [DiceRoll.java](DiceRoll.java)
